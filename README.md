@@ -3,7 +3,7 @@ Symfony2 Bundle to integrate the CKEditor skin Office 2013
 
 ## Current Version
 
-Quick Table v1.0.4
+Office 2013 v1.0.4
 
 ## Installation
 
