@@ -59,7 +59,7 @@ $ php app/console assets:install --symlink web
 
 ``` yaml
 trsteel_ckeditor:
-    skin: 'xyz'
+    skin: 'office2013,../../bundles/stingerckeditoroffice2013skin/'
 ```
 
 
