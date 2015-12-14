@@ -1,0 +1,36 @@
+{
+	"name" : "stinger/ckeditor-office2013-skin-bundle",
+	"type" : "symfony-bundle",
+	"description" : "Symfony2 Bundle to integrate the CKEditor skin office 2013",
+	"keywords" : [
+		"ckeditor",
+		"office",
+		"2013",
+		"skin",
+		"symfony"
+	],
+	"homepage" : "http://ckeditor.com/addon/office2013",
+	"license" : [
+		"LGPL-3.0",
+		"GPL-3.0",
+		"MPL",
+	],
+	"authors" : [{
+			"name" : "Oliver Kotte",
+			"email" : "oliver.kotte@stinger-soft.net",
+			"homepage" : "http://www.stinger-soft.net"
+		}
+	],
+	"require" : {
+		"symfony/framework-bundle" : ">=2.1"
+	},
+	"suggest" : {
+		"Trsteel/ckeditor-bundle" : "The CKEditor Bundle we're using ;)"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Stinger\\CKEditorOffice2013SkinBundle" : ""
+		}
+	},
+	"target-dir" : "Stinger/CKEditorOffice2013SkinBundle"
+}
